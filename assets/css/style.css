@@ -332,14 +332,29 @@ nav.imn-header-nav-content,.imn-header-nav-menu ul,.imn-header-nav-button {
   border-radius: 12px;
   margin: 60px 0;
 }
+.single-inm-engine-tab-new-style {
+  display: flex;
+ flex-direction: row;
+ flex-wrap: wrap;
+  gap: 20px;
+}
+.single-inm-engine-tab-new-style .child-inm-engine-tab-right-content {
+  margin: 0;
+  padding: 20px 20px;
+  flex: 0 0 48%;
+}
 
-.child-inm-engine-tab-right-content h5,.single-inm-compounding-growth-items h5,.single-inm-benefits-content h5 {
+.child-inm-engine-tab-right-content h5,.single-inm-compounding-growth-items h5,.single-inm-benefits-content h5,.child-inm-engine-tab-right-content h5 small {
   font-weight: 700;
   font-size: 22px;
   color: #3A3A3A;
   display: flex;
   align-items: center;
   margin-bottom: 15px;
+}
+.child-inm-engine-tab-right-content h5 small {
+  max-width: 160px;
+  margin-bottom: 0;
 }
 .child-inm-engine-tab-right-content h5 span,.single-inm-compounding-growth-items h5 span,.single-inm-benefits-content h5 span {
   width: 55px;
@@ -412,7 +427,7 @@ nav.imn-header-nav-content,.imn-header-nav-menu ul,.imn-header-nav-button {
   margin: auto;
 }
 .inm-compounding-growth-img img {
-  max-width: 860px;
+  max-width: 690px;
   width: 100%;
   margin: 70px auto;
   display: block;
@@ -680,6 +695,9 @@ nav.imn-header-nav-content,.imn-header-nav-menu ul,.imn-header-nav-button {
 .inm-footer-area .similar-bg-color {
   padding: 90px 15px;
   text-align: center;
+}
+.inm-investormap-logo-content img {
+  width: 240px;
 }
 .inm-footer-area .imn-hero-left-social-icon {
   display: flex;
