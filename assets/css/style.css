@@ -315,6 +315,10 @@ nav.imn-header-nav-content,.imn-header-nav-menu ul,.imn-header-nav-button {
   flex-wrap: wrap;
   align-items: center;
 }
+.single-inm-engine-tab.tab-last-system {
+  flex-direction: column;
+}
+
 .single-inm-engine-tab-left-img {
   flex: 0 0 45%;
   margin-right: 5%;
@@ -325,6 +329,11 @@ nav.imn-header-nav-content,.imn-header-nav-menu ul,.imn-header-nav-button {
 .single-inm-engine-tab-left-img img {
   width: 100%;
   height: auto;
+}
+.single-inm-engine-tab.tab-last-system .single-inm-engine-tab-left-img img {
+  width: 60%;
+  margin: 0 auto;
+  display: block;
 }
 .child-inm-engine-tab-right-content,.single-inm-compounding-growth-items,.single-inm-benefits-content {
   background: #FFFFFF;
@@ -341,7 +350,7 @@ nav.imn-header-nav-content,.imn-header-nav-menu ul,.imn-header-nav-button {
 .single-inm-engine-tab-new-style .child-inm-engine-tab-right-content {
   margin: 0;
   padding: 20px 20px;
-  flex: 0 0 48%;
+  flex: 0 0 31.33%;
 }
 
 .child-inm-engine-tab-right-content h5,.single-inm-compounding-growth-items h5,.single-inm-benefits-content h5,.child-inm-engine-tab-right-content h5 small {
@@ -353,7 +362,7 @@ nav.imn-header-nav-content,.imn-header-nav-menu ul,.imn-header-nav-button {
   margin-bottom: 15px;
 }
 .child-inm-engine-tab-right-content h5 small {
-  max-width: 160px;
+  max-width: 250px;
   margin-bottom: 0;
 }
 .child-inm-engine-tab-right-content h5 span,.single-inm-compounding-growth-items h5 span,.single-inm-benefits-content h5 span {

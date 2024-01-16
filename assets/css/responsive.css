@@ -9,6 +9,9 @@
     .imn-hero-right-content img {
         max-width: 550px;
     }
+    .child-inm-engine-tab-right-content h5 small {
+        max-width: 225px;
+    }
 
 
 }
@@ -95,6 +98,15 @@
     .single-inm-engine-tab-right-content .child-inm-engine-tab-right-content {
         margin: 0;
     }
+    .single-inm-engine-tab.tab-last-system .single-inm-engine-tab-left-img img {
+        width: 75%;
+    }
+    .single-inm-engine-tab-new-style {
+        justify-content: space-between;
+    }
+    .single-inm-engine-tab-new-style .child-inm-engine-tab-right-content {
+        flex: 0 0 48%;
+    }
 
 
 }
@@ -161,6 +173,12 @@
     .single-inm-engine-tab-new-style {
         flex-direction: column;
         gap: 0;
+    }
+    .single-inm-engine-tab.tab-last-system .single-inm-engine-tab-left-img img {
+        width: 100%;
+    }
+    .child-inm-engine-tab-right-content h5 small {
+        max-width: 100%;
     }
 
      
@@ -245,6 +263,9 @@
     max-width: 100%;
     margin: 0 auto;
 }
+.child-inm-engine-tab-right-content h5 small {
+    max-width: 320px;
+}
 
 
 }
@@ -256,25 +277,8 @@
     .imn-hero-left-heading-text h4 {
         font-size: 21px;
     }
-    .imn-hero-left-btn a {
-        font-size: 12px;
-        margin-right: 15px;
-    }
-    .imn-hero-left-social-icon a {
-        width: 30px;
-        height: 30px;
-       
-    }
-    .imn-hero-left-social-icon a svg {
-        width: 15px;
-        height: 15px;
-    }
-    .imn-hero-left-social-icon a {
-        width: 30px;
-        height: 30px;
-        line-height: 28px;
-        margin-right: 12px;
-    }
+
+
     .sigle-imn-hero-left-clients-count h3 {
         font-size: 18px;
     }
@@ -283,7 +287,7 @@
     }
     .sigle-imn-hero-left-clients-count {
         padding: 15px 8px;
-        width: 120px;
+        width: 30.33%;
         border-radius: 10px;
     }
     .imn-hero-left-btn, .imn-hero-left-social-icon, .imn-hero-left-client-counts {
@@ -386,24 +390,27 @@
         flex-direction: column;
     }
     
-.inm-footer-copyright-text p {
-    margin-bottom: 15px;
-}
-.inm-benefits-content, .inm-case-studies-content,.imn-select-plan-content {
-    margin-top: 20px;
-}
-.inm-benefits-area .imn-similar-heading span,.inm-compounding-growth-area .imn-similar-heading span {
-    width: 250px;
-  
-}
-.inm-hero-area {
+    .inm-footer-copyright-text p {
+        margin-bottom: 15px;
+    }
+    .inm-benefits-content, .inm-case-studies-content,.imn-select-plan-content {
+        margin-top: 20px;
+    }
+    .inm-benefits-area .imn-similar-heading span,.inm-compounding-growth-area .imn-similar-heading span {
+        width: 250px;
+    
+    }
+    .inm-hero-area {
 
-    padding-top: 0;
-    padding-bottom: 60px;
-}
-.imn-header-nav-menu ul li a:hover {
-  color: #fff;
-}
+        padding-top: 0;
+        padding-bottom: 60px;
+    }
+    .imn-header-nav-menu ul li a:hover {
+    color: #fff;
+    }
+    .child-inm-engine-tab-right-content h5 small {
+        max-width: 250px;
+    }
 
 }
 
@@ -463,8 +470,27 @@
 .inm-footer-area .similar-bg-color {
     padding: 25px 5px;
 }
-
-
+.child-inm-engine-tab-right-content h5 small {
+    max-width: 155px;
+}
+.inm-engine-tab-button button {
+    padding: 5px 10px 5px 9px;
+    margin: 0 4px;
+}
+.imn-hero-left-btn a {
+    font-size: 12px;
+    margin-right: 15px;
+}
+.imn-hero-left-social-icon a {
+    width: 30px;
+    height: 30px;
+    line-height: 28px;
+    margin-right: 12px;
+}
+.imn-hero-left-social-icon a svg {
+    width: 15px;
+    height: 15px;
+}
 
 }
 
